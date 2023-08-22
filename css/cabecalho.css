@@ -33,7 +33,8 @@
 
 @media (min-width: 640px) {
     .cabecalho {
-        padding: 0 5%;
+        padding-top: 0;
+        padding-bottom: 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -58,12 +59,5 @@
 
     .cabecalho__item-menu--matricular a {
         padding: 1.8em 3.5em;
-    }
-}
-
-@media (min-width: 1066px) {
-    .cabecalho {
-        padding-left: auto;
-        padding-right: auto;
     }
 }
