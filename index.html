@@ -9,8 +9,8 @@
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,&display=block"
         />
-        <link rel="stylesheet" href="css/reset.css" />
-
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/cursos.css" />
         <link rel="stylesheet" href="./css/container.css" />
         <link rel="stylesheet" href="./css/cabecalho.css" />
         <link rel="stylesheet" href="./css/rodape.css" />
@@ -44,7 +44,62 @@
             </nav>
         </header>
 
-        <main>Conteúdo principal</main>
+        <main>
+            <section class="cursos">
+                <article class="cursos__chamada --largura-grande">
+                    <h1 class="chamada__titulo">
+                        Cursos Online de
+                        <strong class="chamada__titulo--destaque"
+                            >música</strong
+                        >
+                    </h1>
+                    <p>
+                        Comece agoora e aprenda sua primeira música em 10
+                        minutos!
+                    </p>
+                    <a
+                        href="cursos.html"
+                        class="chamada__cursos__matricula botao"
+                        >Matricule-se</a
+                    >
+                </article>
+
+                <nav>
+                    <ul class="cursos__lista">
+                        <li class="curso--tecladopiano">
+                            <a href="#">Teclado & Piano</a>
+                        </li>
+                        <li class="curso--violaoguitarra">
+                            <a href="#">Violão e Guitarra</a>
+                        </li>
+                        <li class="curso--baixo">
+                            <a href="#">Baixo</a>
+                        </li>
+                        <li class="curso--bateria curso--destaque">
+                            <a href="#">Bateria</a>
+                        </li>
+                        <li class="curso--percussao">
+                            <a href="#">Percussão</a>
+                        </li>
+                        <li class="curso--canto curso--destaque2">
+                            <a href="#">Canto</a>
+                        </li>
+                        <li class="curso--audio">
+                            <a href="#">Áudio</a>
+                        </li>
+                        <li class="curso--teoria">
+                            <a href="#">Teoria</a>
+                        </li>
+                        <li class="curso--sopro">
+                            <a href="#">Sopro</a>
+                        </li>
+                        <li class="curso--cordas">
+                            <a href="#">Cordas</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </main>
 
         <footer class="rodape container">
             <section class="rodape__secao rodape__secao--sobre">
@@ -172,6 +227,7 @@
                         name="email-newsletter"
                         type="email"
                         class="form-newsletter__campo"
+                        placeholder="Digite seu email"
                     />
                     <button type="submit" class="form-newsletter__botao">
                         OK
